@@ -1,0 +1,39 @@
+{
+  "name": "projet-colis-and-co",
+  "version": "1.0.0",
+  "description": "project apothéose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Olduvai/projet-colis-and-co.git"
+  },
+  "author": "Julien PAYET,Joseph PITTERA, Lassaad TOUIBI, Helene RAMET, Carlos LOPES",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Olduvai/projet-colis-and-co/issues"
+  },
+  "homepage": "https://github.com/O-clock-Olduvai/projet-colis-and-co#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bunyan": "^1.8.15",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "pg": "^8.10.0",
+    "validator": "^13.9.0"
+  }
+}
